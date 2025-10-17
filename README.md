@@ -1,4 +1,16 @@
-SA Mobilidade 3B — Back-End
+# 🚍 SA Mobilidade 3B — Back-End
 
-Essa atividade é parte da nossa SA, desenvolvida pelo meu grupo da turma 3B.
-É um sistema que gerencia informações sobre os ônibus, por exemplo a placa, linha, lotação e localização, fizemos isso usando o banco de dados PostgresSQL e back-end.
+**Alunos:** Rafael, Caio, Eric, João G  
+**Turma:** 3B — Desenvolvimento de Sistemas  
+**Situação de Aprendizagem:** Mobilidade do Futuro  
+**Disciplina:** Modelagem de Sistemas
+
+---
+
+## Descrição do Projeto
+
+Este back-end faz parte do projeto **OptiBus SC**, um sistema para otimizar o transporte coletivo urbano através do monitoramento de frotas em tempo real.  
+Foi desenvolvido em **Node.js (Express)** com banco de dados **PostgreSQL**.
+
+O sistema permite consultar ônibus cadastrados no banco de dados.
+
