@@ -1,4 +1,4 @@
-# 🚍 SA Mobilidade 3B — Back-End
+#  SA Mobilidade 3B — Back-End
 
 **Alunos:** Rafael, Caio, Eric, João G  
 **Turma:** 3B — Desenvolvimento de Sistemas  
