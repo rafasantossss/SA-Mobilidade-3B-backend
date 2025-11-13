@@ -1,15 +1,11 @@
 import express from "express";
 import cors from "cors";
-import dotenv from "dotenv";
-import onibusRoutes from "./src/routes/onibusRoutes.js";
+import userRoutes from "./routes/userRoutes.js";
 
-dotenv.config();
 const app = express();
-
 app.use(cors());
 app.use(express.json());
-app.use(onibusRoutes);
 
-app.listen(process.env.PORT, () => {
-  console.log("Servidor rodando na porta", process.env.PORT);
-});
+app.use("/api/usuarios", userRoutes);
+
+app.listen(8000, () => console.log("Servidor rodando na porta 8000 🚀"));
